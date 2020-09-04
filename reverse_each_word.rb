@@ -6,7 +6,7 @@ def reverse_each_word(str)
   str.split().each do |word| 
     new_str << word.reverse
     end
-    binding.pry
+    
   new_str.join(" ")
   return new_str
 end
