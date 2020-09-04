@@ -12,14 +12,14 @@ require "pry"
 # end
 
 def reverse_each_word(str)
-  str.reverse.split.reverse.join(" ")
-  # new_str = []
-  # str.split().each do |word| 
-  #   new_str << word.reverse
-  #   end
+  # str.reverse.split.reverse.join(" ")
+  new_str = []
+  str.reverse.split().each do |word| 
+    new_str << word.reverse
+    end
     
-  # new_str.join(" ")
-  # return new_str
+  new_str.join(" ")
+  return new_str
 end
 
 
