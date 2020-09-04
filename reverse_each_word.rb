@@ -12,7 +12,7 @@ require "pry"
 # end
 
 def reverse_each_word(str)
-  str.split.reverse.join(" ")
+  str.reverse.split.reverse.join(" ")
   # new_str = []
   # str.split().each do |word| 
   #   new_str << word.reverse
