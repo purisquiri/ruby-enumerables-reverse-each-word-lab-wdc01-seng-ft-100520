@@ -1,10 +1,8 @@
 require "pry"
 
 def reverse_each_word(str)
-  #new_str = [] 
   str.split.each do |word|
     word.reverse!
-    #new_str << str 
     end
   str.join 
 end
