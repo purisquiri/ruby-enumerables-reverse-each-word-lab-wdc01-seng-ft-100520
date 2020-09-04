@@ -8,7 +8,7 @@ def reverse_each_word(str)
     end
     binding.pry
   new_str.join(" ")
-  new_str
+  return new_str
 end
 
 
