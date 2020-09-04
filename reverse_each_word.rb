@@ -6,7 +6,7 @@ def reverse_each_word(str)
     end
   
 end
-str.join
+#str.join
 binding.pry
 
 def reverse_each_word(str2)
