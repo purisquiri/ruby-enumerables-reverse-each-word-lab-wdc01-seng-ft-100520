@@ -2,9 +2,9 @@ require "pry"
 
 def reverse_each_word(str)
   str.split.each do |word|
-    word.reverse!
+    word.reverse.join
     end
-  str.join 
+  #str.join 
 end
 
 def reverse_each_word(str2)
