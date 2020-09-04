@@ -17,7 +17,5 @@ end
 
 
 def reverse_each_word(str2)
-  str2.reverse.split.collect do |word|
-    word.reverse!
-    end
+  str2.reverse.split.collect.reverse.join(" ")
 end
