@@ -3,7 +3,7 @@ str = "Hello how are you?"
 def reverse_each_word(str)
   new_ar = [] 
   str.split.each do |word|
-    word.reverse
+    word.reverse!
     new_ar << str
     end
   new_ar
