@@ -1,5 +1,5 @@
 require "pry"
-str = "Hello how are you?"
+#str = "Hello how are you?"
 def reverse_each_word(str)
   new_str = []
   str.each do |word| 
