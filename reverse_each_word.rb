@@ -1,7 +1,7 @@
 require "pry"
 # str = "Hello how are you?"
 # def reverse_each_word(str)
-#   # binding.pry
+#  
 #   new_str = []
 #   str.split().each do |word| 
 #     new_str << word.reverse
@@ -13,17 +13,11 @@ require "pry"
 
 def reverse_each_word(str)
   str.reverse.split.reverse.join(" ")
-  # new_str = []
-  # str.reverse.split().each do |word| 
-    # new_str << word.reverse
-    # end.join(" ")
-    
 end
 
 
 def reverse_each_word(str2)
-  str2.split.collect do |word|
-    binding.pry
+  str2.reverse.split.collect do |word|
     word.reverse!
     end
 end
