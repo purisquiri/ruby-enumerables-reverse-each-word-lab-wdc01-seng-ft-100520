@@ -1,7 +1,7 @@
 require "pry"
 str = "Hello how are you?"
 def reverse_each_word(str)
-  binding.pry
+  # binding.pry
   new_str = str.split().each do |word| 
     new_str << word.reverse
     end
