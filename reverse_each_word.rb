@@ -16,10 +16,8 @@ def reverse_each_word(str)
   new_str = []
   str.reverse.split().each do |word| 
     new_str << word.reverse
-    end
+    end.join(" ")
     
-  new_str
-  return new_str
 end
 
 
