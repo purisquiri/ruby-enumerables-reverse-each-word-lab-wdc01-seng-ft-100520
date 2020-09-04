@@ -23,6 +23,7 @@ end
 
 def reverse_each_word(str2)
   str2.split.collect do |word|
+    binding.pry
     word.reverse!
     end
 end
