@@ -17,5 +17,5 @@ end
 
 
 def reverse_each_word(str2)
-  str2.reverse.split.collect.reverse.join(" ")
+  str2.reverse.split.reverse.join(" ")
 end
