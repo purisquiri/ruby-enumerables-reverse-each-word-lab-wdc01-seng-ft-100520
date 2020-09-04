@@ -3,8 +3,7 @@ require "pry"
 def reverse_each_word(str)
   new_str = [] 
   str.split.each do |word|
-    word.reverse!
-    new_str << str[word] 
+    word.reverse! = new_str
     end
   new_str.join 
 end
