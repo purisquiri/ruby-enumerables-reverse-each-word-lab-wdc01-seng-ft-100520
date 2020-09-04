@@ -14,7 +14,7 @@ require "pry"
 def reverse_each_word(str)
   # str.reverse.split.reverse.join(" ")
   new_str = []
-  str.reverse.split().each do |word| 
+  str.split().each do |word| 
     new_str << word.reverse
     end.join(" ")
     
