@@ -1,12 +1,12 @@
 require "pry"
 
 def reverse_each_word(str)
-  new_str = [] 
+  #new_str = [] 
   str.split.each do |word|
     word.reverse!
-    new_str << str[word] 
+    #new_str << str 
     end
-  new_str.join 
+  str.join 
 end
 
 def reverse_each_word(str2)
