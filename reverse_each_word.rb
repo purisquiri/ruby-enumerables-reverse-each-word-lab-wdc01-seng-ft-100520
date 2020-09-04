@@ -6,6 +6,7 @@ def reverse_each_word(str)
     end
   #str.join 
 end
+binding.pry
 
 def reverse_each_word(str2)
   str2.split.collect do |word|
